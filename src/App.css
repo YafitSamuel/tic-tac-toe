@@ -1,0 +1,36 @@
+body{
+  background-color:rgb(15, 15, 48);
+  color: aliceblue;
+}
+.App {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 35px;
+}
+.box {
+  background-color: rgb(15, 15, 48);
+  width: 160px;
+  height: 160px;
+  margin: 1px;
+  padding: 10px;
+  border: 1px cadetblue solid;
+  border-radius: 5px;
+  font-size: 140px;
+}
+.box:hover {
+  background-color: rgb(178, 136, 218);
+}
